@@ -11,7 +11,7 @@
   overflow-x: auto;
   /*word-break: break-all;
   word-wrap: break-word;*/
-  font-size: 15px;
+  word-wrap: break-word;
 }
 
 .highlight pre {
@@ -20,6 +20,7 @@
 
 code {
   font-family:'Bitstream Vera Sans Mono','Courier', monospace;
+  font-size: 15px;
 }
 
 .highlight .c { color: #586E75; font-weight: bold } /* Comment */
