@@ -11,5 +11,3 @@ fields:
 - type: text
   name: permalink
   label: permalink
-pages:
-- Test/test.md
