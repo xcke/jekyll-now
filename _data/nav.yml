@@ -1,12 +1,18 @@
-- title: "Home"
-  href: "/"
-
-- title: "News"
-  href: "/news/"
-
-- title: "Snippets"
-  subcategories:
-    - subtitle: "Example1"
-      subhref: "#"
-    - subtitle: "Example2"
-      subhref: "#"
+- title: About
+  url: /about.html
+- title: Team
+  url: /team.html
+- title: Contact
+  url: /contact.html
+- title: Store
+  url: /store.html
+- title: Support
+  url: /support.html
+  sublinks:
+    - title: FAQ
+      url: /faq.html
+    - title: Documentation
+      url: /documentation.html
+    - title: separator
+    - title: Customer Support
+      url: /customer-support.html
