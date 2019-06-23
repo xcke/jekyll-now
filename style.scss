@@ -286,6 +286,21 @@ footer {
 .nav-tabs {
   border-bottom: 1px solid #dee2e6;
 }
+.nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
