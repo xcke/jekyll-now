@@ -4,7 +4,7 @@ layout: default
 
 <article class="post">
   <h1>{{ page.title }}</h1>
-  <div class="post-categories float-right">
+  <div class="post-categories">
   {% if post %}
     {% assign categories = post.categories %}
   {% else %}
@@ -14,6 +14,7 @@ layout: default
   Categories: <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
+  <hr />
 </div>
 
   <div class="entry">
