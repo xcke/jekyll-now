@@ -3,14 +3,19 @@
 - title: About
   url: http://wiki.internetworking.hu/about/
 - title: Subscribe
-  url: http://wiki.internetworking.hu/feed/
+  url: http://wiki.internetworking.hu/feed.xml
 - title: Awesome Lists
-  url: /support.html
+  url: http://wiki.internetworking.hu/
   sublinks:
-    - title: FAQ
-      url: /faq.html
-    - title: Documentation
-      url: /documentation.html
-    - title: separator
-    - title: Customer Support
-      url: /customer-support.html
+    - title: awesome-network-programmability
+      url: https://github.com/cisco-ie/awesome-network-programmability
+    - title: awesome-sdn
+      url: https://github.com/sdnds-tw/awesome-sdn
+    - title: awesome-python
+      url: https://github.com/vinta/awesome-python
+    - title: awesome-regex
+      url: https://github.com/aloisdg/awesome-regex
+    - title: awseome-yaml
+      url: https://github.com/datatxt/awseome-yaml
+    - title: awesom-network-automation
+      url: https://github.com/networktocode/awesome-network-automation
