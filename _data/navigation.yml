@@ -1,12 +1,10 @@
+- title: Home
+  url: http://wiki.internetworking.hu/
 - title: About
-  url: /about.html
-- title: Team
-  url: /team.html
-- title: Contact
-  url: /contact.html
-- title: Store
-  url: /store.html
-- title: Support
+  url: http://wiki.internetworking.hu/about/
+- title: Subscribe
+  url: http://wiki.internetworking.hu/feed/
+- title: Awesome Lists
   url: /support.html
   sublinks:
     - title: FAQ
