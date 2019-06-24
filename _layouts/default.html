@@ -29,14 +29,14 @@
   {% assign links = site.data.navigation %}
 {% for link in links %}
   {% if link.sublinks %}
-  <li class="dropdown"><a data-toggle="dropdown" aria-expanded="false" href="{{site.url}}{{link.url}}" class="dropdown-toggle nav-link dropdown-toggle">{{link.title}}</a>
+  <li class="dropdown"><a data-toggle="dropdown" aria-expanded="false" href="{{link.url}}" class="dropdown-toggle nav-link dropdown-toggle">{{link.title}}</a>
     {% for sublink in link.sublinks %}
-      <div role="menu" class="dropdown-menu"><a role="presentation" href="{{site.url}}{{sublink.url}}" class="dropdown-item">{{sublink.title}}</a>
+      <div role="menu" class="dropdown-menu"><a role="presentation" href="{{sublink.url}}" class="dropdown-item">{{sublink.title}}</a>
       </div>
     {% endfor %}
   </li>
   {% else %}
-    <li class="nav-item"><a href="{{site.url}}{{link.url}}" class="nav-link active">{{link.title}}</a></li>
+    <li class="nav-item"><a href="{{link.url}}" class="nav-link active">{{link.title}}</a></li>
     {% endif %}
     {% endfor %}
 
