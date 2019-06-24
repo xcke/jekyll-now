@@ -12,4 +12,4 @@ Next time you find yourself Googling some cool new technology to (re)build your 
 5. Weigh **Advantages** against disadvantages. Determine what was de-prioritized to achieve what was prioritized.
 6. **Think**! Soberly and humbly ponder how well this solution fits your problem. What fact would need to be different for you to change your mind? 
 
-As described [here] :)
+As described [here](https://blog.bradfieldcs.com/you-are-not-google-84912cf44afb) :)
