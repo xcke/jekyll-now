@@ -27,21 +27,19 @@
           </div>
 <ul class="nav float-right">
   {% assign links = site.data.navigation %}
-  {% for link in links %}
+{% for link in links %}
   {% if link.sublinks %}
-      {% for sublink in link.sublinks %}
-        {% if sublink.title == 'separator' %}
-            <li role="separator" class="divider"></li>
-        {% else %}
-            <li>
-                <a href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
-            </li>
-        {% endif %}
+  <li class="dropdown"><a data-toggle="dropdown" aria-expanded="false" href="{{site.url}}{{link.url}}" class="dropdown-toggle nav-link dropdown-toggle">{{link.title}}</a>
+    {% for sublink in link.sublinks %}
+      <div role="menu" class="dropdown-menu"><a role="presentation" href="{{site.url}}{{sublink.url}}" class="dropdown-item">{{sublink.title}}</a>
+      </div>
     {% endfor %}
-    {% else %}
+  </li>
+  {% else %}
     <li class="nav-item"><a href="{{site.url}}{{link.url}}" class="nav-link active">{{link.title}}</a></li>
     {% endif %}
     {% endfor %}
+
 </ul>
 
         </header>
