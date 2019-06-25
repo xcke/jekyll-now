@@ -1,11 +1,11 @@
 - title: Home
-  url: http://wiki.internetworking.hu/
+  url: https://blog.internetworking.hu/
 - title: About
-  url: http://wiki.internetworking.hu/about/
+  url: https://blog.internetworking.hu/about/
 - title: Subscribe
-  url: http://wiki.internetworking.hu/feed.xml
+  url: https://blog.internetworking.hu/feed.xml
 - title: Awesome Lists
-  url: http://wiki.internetworking.hu/
+  url: https://blog.internetworking.hu/
   sublinks:
     - title: awesome-network-programmability
       url: https://github.com/cisco-ie/awesome-network-programmability
