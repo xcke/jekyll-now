@@ -50,6 +50,7 @@ This is a nice free DDNS solution. DDNS is required so that the server can be re
 - Just go to [www.duckdns.org](https://www.duckdns.org)
 - Login using one of the method
 - Write down the sub domain and Token
+
 ### Storage - Wasabi - registration and setup
 In our solution persistence is still required. We could use Packet’s block storage, but the availability of the service is region dependent. Wasabi seems to fit, and it is cost effective, can be used for other proposes as well. It is fast also. Just head to [http://wasabi.com](http://wasabi.com), register.
 - Create a new Object Storage bucket (write down the name). Use the proper region. 
