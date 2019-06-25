@@ -1,6 +1,7 @@
 ---
 title: Jinja2 dynamic variables
 layout: post
+categories: netdev
 ---
 Just a nice trick. Let’s assume we are using a CSV file and also a YAML file to feed input data to python `template.render()` function. 
 
