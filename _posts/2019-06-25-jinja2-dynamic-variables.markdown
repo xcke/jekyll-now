@@ -10,14 +10,15 @@ To connect these two together on the template level we can do something like thi
 Our input YAML file (globals)
 ```yaml
 nodes:
-	TESTNODE:
-		hostname: cisco
+ TESTNODE:
+  hostname: cisco
 ```
 Our input CSV file (node\_csv):
-```csv
-INDEX,NODE_NAME,NODE_ID,SITE_ID
-10,TESTNODE,7,163
-```
+
+INDEX|NODE_NAME|NODE_ID|SITE_ID
+---|---|---|---
+10|TESTNODE|7|163
+
 Python template render function: 
 ```python
 template.render(node_csv=node_csv,globals=globals)
@@ -25,7 +26,7 @@ template.render(node_csv=node_csv,globals=globals)
 
 In Jinja2 we can use the following :
 
-```jinja2
+```jinja
 {% raw %}
 {% set node_name = node_csv.NODE_NAME %}
 hostname {{ globals.nodes.get(node_name).hostname }}
