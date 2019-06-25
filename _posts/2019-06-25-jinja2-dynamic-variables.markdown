@@ -15,9 +15,9 @@ nodes:
 ```
 Our input CSV file (node\_csv):
 
-INDEX|NODE_NAME|NODE_ID|SITE_ID
----|---|---|---
-10|TESTNODE|7|163
+|INDEX|NODE_NAME|NODE_ID|SITE_ID|
+|---|---|---|---|
+|10|TESTNODE|7|163|
 
 Python template render function: 
 ```python
