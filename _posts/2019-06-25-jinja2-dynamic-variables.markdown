@@ -19,6 +19,7 @@ Our input CSV file (node\_csv):
 |---|---|---|---|
 |10|TESTNODE|7|163|
 
+
 Python template render function: 
 ```python
 template.render(node_csv=node_csv,globals=globals)
@@ -27,8 +28,10 @@ template.render(node_csv=node_csv,globals=globals)
 In Jinja2 we can use the following :
 
 ```jinja
-{% raw -%}{% set node_name = node_csv.NODE_NAME %}
-hostname {{ globals.nodes.get(node_name).hostname }}{% endraw -%}
+{% raw %}
+{% set node_name = node_csv.NODE_NAME %}
+hostname {{ globals.nodes.get(node_name).hostname }}
+{% endraw %}
 ```
 
 The point here is to use the _get_ function to reference a Jinja2 variable inside a variable. 
