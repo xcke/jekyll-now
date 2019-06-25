@@ -14,7 +14,7 @@ nodes:
 		hostname: cisco
 ```
 Our input CSV file (node\_csv):
-```yaml
+```csv
 INDEX,NODE_NAME,NODE_ID,SITE_ID
 10,TESTNODE,7,163
 ```
@@ -25,7 +25,7 @@ template.render(node_csv=node_csv,globals=globals)
 
 In Jinja2 we can use the following :
 
-```yaml
+```jinja2
 {% set node_name = node_csv.NODE_NAME %}
 
 hostname {{ globals.nodes.get(node_name).hostname }}
