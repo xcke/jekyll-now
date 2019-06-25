@@ -301,8 +301,18 @@ dl, ol, ul {
   margin-bottom: 1rem;
 }
 
-table {
-  @extend .table;
+// Table styles
+table.wide {
+  width: 100%;
+  max-width: 100%;
+}
+
+table.inner-borders {
+  border-collapse: collapse;
+  border-style: hidden;
+  td {
+    border: 1px solid #5e5e5e;
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
