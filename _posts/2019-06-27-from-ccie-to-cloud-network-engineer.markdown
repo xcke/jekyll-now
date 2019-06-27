@@ -2,6 +2,7 @@
 title: From CCIE to Cloud Network Engineer
 layout: post
 date: 2019-03-21
+categories: career
 ---
 An interesting [article](https://cloud.google.com/blog/products/networking/from-ccie-to-google-cloud-network-engineer-four-things-to-think-about) about moving from enterprise networking space to cloud networking role from Tom Taggart. 
 
