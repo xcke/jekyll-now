@@ -1,7 +1,7 @@
 ---
 title: Cool Tech? UNPHAT.
 layout: post
-categories: design, solution
+categories: design solution
 ---
 Next time you find yourself Googling some cool new technology to (re)build your architecture around, I urge you to stop and follow UNPHAT instead:
 
