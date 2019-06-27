@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Package control installation behind proxy
+title: Package-control installation behind proxy
 date: 2019-06-12
 author: xcke
-categories: code
+categories: netdev
 
 ---
 Sublime3 text editor is one of the best Editor I have seen, and using it for a while. It is beautiful and also easy to extend. There are a number of packages I use, so the first step after an installation is to setup package-manager. 
