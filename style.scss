@@ -327,6 +327,12 @@ table {
     table tr th :last-child, table tr td :last-child {
       margin-bottom: 0; }
 
+.text-white-50 {
+  color: rgba(255,255,255,.5)!important;
+}
+
+
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
