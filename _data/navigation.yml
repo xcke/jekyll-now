@@ -2,8 +2,8 @@
   url: https://blog.internetworking.hu/
 - title: About
   url: https://blog.internetworking.hu/about/
-- title: Subscribe
-  url: https://blog.internetworking.hu/feed.xml
+- title: Categories
+  url: https://blog.internetworking.hu/categories/
 - title: Awesome Lists
   url: https://blog.internetworking.hu/
   sublinks:
@@ -19,3 +19,5 @@
       url: https://github.com/datatxt/awseome-yaml
     - title: awesom-network-automation
       url: https://github.com/networktocode/awesome-network-automation
+- title: Subscribe
+  url: https://blog.internetworking.hu/feed.xml
