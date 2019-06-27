@@ -18,7 +18,7 @@ layout: default
   {% endif %}
   {% for category in categories %}
    <span class="badge badge-primary">
-   <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+   <a class="text-white-50" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
    </span>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
