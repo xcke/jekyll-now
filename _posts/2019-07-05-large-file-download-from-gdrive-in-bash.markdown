@@ -1,6 +1,6 @@
 ---
 title: Large file download from Gdrive in bash
-layout: 
+layout: post
 categories: snippets
 ---
 
