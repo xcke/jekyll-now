@@ -3,11 +3,8 @@ title: Python API wrapper example
 layout: post
 categories: netdev
 ---
-
-Python API wrapper example
-
-It is easy to create a python wrapper for a REST API. I have seen a good example from the [Wekan](https://wekan.github.io "Wekan") project, and used this as an example to interact with GNS3-Server. 
-I have created a new module for my application, that is usually a new folder in the main project directory. This folder will also include two files:
+It is easy to create a python wrapper for any service based on REST API. I have seen a good example from the [Wekan](https://wekan.github.io "Wekan") project, and used this method to interact with GNS3-Server in one of my pet project. 
+I have created a new module for my application, that is usually a new folder in the main project directory. This folder includes two files:
 
 ```python
 - __init__.py : Will include the main API Class
