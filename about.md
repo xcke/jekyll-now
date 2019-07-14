@@ -3,11 +3,12 @@ layout: page
 title: About
 permalink: /about/
 ---
-# Blog.internetworking.hu
+### Blog
 
 Internetworking.hu is an independent personal blog of Gabor Kis-Hegedus focusing on advanced, unusual or under-documented features of different systems related to Network technologies and Infrastructure. Another key focuse is using the Python language in this technology domain for templating and automating different solutions. 
 
-# Author
+### Author
+
 I have graduated as Electrical Engineer in 2009 with an MSc degree. 
 
 Early in my professional career I have developed broad IT Infrastructure and Networking related knowledge. I have used mostly the Cisco Systems certificate path (CCNA, CCNP) to develop my skills, and eventually begun to pursue my CCIE (RS Track). For me archiving the CCIE(#43897) certificate was a personal challenge, and the Cisco CLI was just a language to navigate into the more complex topics of the Enterprise Networking technology domain. 
