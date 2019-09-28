@@ -3,8 +3,6 @@ title: Workflow for creating new Blog post
 layout: post
 categories: blogging
 ---
-
-# Workflow for creating new Blog post
 I have migrated from Wordpress to Github, as it supports more easily the Development like blogging. This way, I can treat Blog-as-code. Usually I capture the ideas in [Ulysses](https://ulysses.app), that is a Markdown writer application. It is nice, and brings some great value in the writing. I think writing is something requires practice and although I am far away from being good, sometimes trying to polish this skill also. 
 ## Solution elements:
 * Cloudflare (free tier): To host the domain, also provide caching and protection. 
