@@ -9,6 +9,7 @@ It is not easy to define what DevOps and NetDevOps actually means for Network En
 Personally for me NetDevOps means currently to try to use some form of automation and programmability in how we consume data, interact with systems and manage state in the network infrastructure. 
 
 Core element of this is  a programming language that is easy enough to get started with, and has rich ecosystem in Network Engineering. This is currently Python, and I can tell you, I love to use Python. According to stack overflow [insights](https://insights.stackoverflow.com/survey/2019) Python is the fastest-growing major programming language today.
+
 To understand Data better, we need to learn some of the modern data serialization formats, such as [JSON](https://tools.ietf.org/html/rfc7159), [YAML](https://yaml.org). An advantage of these is textual representation of machine readable data, but still in human readable format. These can easily mapped to Python data objects. 
 Capturing automation efforts in a proper data model is key, and will drive how a project or solution will build the datastore or Single source of Truth (SSoT).Popular language to describe a data model is [YANG](https://tools.ietf.org/html/rfc7950), but any other way could work, for example a YAML schema file.
 
