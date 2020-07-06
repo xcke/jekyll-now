@@ -1,5 +1,5 @@
 ---
-title: Remove already merged local branches
+title: GIT Tips
 layout: post
 categories: netdev
 ---
@@ -12,7 +12,7 @@ Check out some of these useful GIT tips:
 
 [source](https://stackoverflow.com/questions/6127328/how-can-i-delete-all-git-branches-which-have-been-merged)
 
-# Git ignore SSL certificate
+## Git ignore SSL certificate
 
 To disable TLS/SSL verification for a single git command
 try passing -c to git with the proper config variable, or use Flow's answer:
