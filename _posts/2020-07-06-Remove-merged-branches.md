@@ -1,4 +1,4 @@
-# ---
+---
 title: Remove already merged local branches
 layout: post
 categories: netdev
@@ -17,12 +17,12 @@ Check out some of these useful GIT tips:
 To disable TLS/SSL verification for a single git command
 try passing -c to git with the proper config variable, or use Flow's answer:
 
-`git -c http.sslVerify=false clone https://example.com/path/to/git`
-To disable SSL verification for a specific repository
-If the repository is completely under your control, you can try:
+`git -c http.sslVerify=false clone https://example.com/path/to/git`  
+To disable SSL verification for a specific repository  
+If the repository is completely under your control, you can try:  
 
-`git config --global http.sslVerify false`
-There are quite a few SSL configuration options in git. From the man page of git config:
+`git config --global http.sslVerify false`  
+There are quite a few SSL configuration options in git. From the man page of git config:  
 
 ```
 http.sslVerify
